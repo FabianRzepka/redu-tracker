@@ -1,6 +1,8 @@
 {
   "version": "6",
   "dialect": "sqlite",
+  "id": "04eadd10-14b5-4902-b3cd-83c8ec3080cb",
+  "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "todos": {
       "name": "todos",
@@ -45,14 +47,18 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
+      "uniqueConstraints": {},
+      "checkConstraints": {}
     }
   },
+  "views": {},
   "enums": {},
   "_meta": {
+    "schemas": {},
     "tables": {},
     "columns": {}
   },
-  "id": "3169bbf9-a9f8-4d6c-b3b7-5e9a28c97af3",
-  "prevId": "00000000-0000-0000-0000-000000000000"
+  "internal": {
+    "indexes": {}
+  }
 }
